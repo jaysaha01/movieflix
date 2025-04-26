@@ -511,6 +511,7 @@ a:hover {
 }
 
 .moviecard {
+  transition: all 0.3s ease;
   height: 300px;
   border-radius: 10px;
   overflow: hidden;
@@ -522,9 +523,10 @@ a:hover {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: all 0.2s;
 }
 .moviecard .overlybx {
-  transition: all 0.1s linear;
+  transition: all 0.2s;
   position: absolute;
   background: linear-gradient(1deg, rgba(0, 0, 0, 0.94) 14%, rgba(255, 255, 255, 0.41) 94%);
   top: 0;

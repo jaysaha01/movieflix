@@ -5,13 +5,9 @@ const Borderband = () => {
         <div className='bordermaincovr'>
             <div className='bdercontainer'>
                 <div className="mainbrderbx">
-
                 </div>
-
             </div>
-
         </div>
-
     )
 }
 
