@@ -1,3 +1,3 @@
 export const imageImdbsrc=(imgid)=>{
-    return `http://image.tmdb.org/t/p/w500/${imgid}`
+    return `https://image.tmdb.org/t/p/w500/${imgid}`
 }
