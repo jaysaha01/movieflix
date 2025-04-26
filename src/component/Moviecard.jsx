@@ -13,7 +13,7 @@ const Moviecard = ({ mydata }) => {
     <>
       <Link to={`/browse/fullview/${id}`}>
         <div className='moviecard'>
-          <img src={poster_path ? `http://image.tmdb.org/t/p/w500/${poster_path}` || `http://image.tmdb.org/t/p/w500/${backdrop_path}` : "https://drive-in-theatre.netlify.app/movieImages/default-movie.png"} alt="" srcset="" />
+          <img src={poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` || `http://image.tmdb.org/t/p/w500/${backdrop_path}` : "https://drive-in-theatre.netlify.app/movieImages/default-movie.png"} alt="" srcset="" />
           <div className="overlybx">
             <div className="header">
               <AddCircleIcon />
